@@ -20,6 +20,7 @@ const getKeyType = key => {
 	return action;
 };
 
+// Creates the string of numbers that are output to display
 const createResultString = (key, displayedNum, state) => {
 	const keyContent = key.textContent;
 	const keyType = getKeyType(key);
